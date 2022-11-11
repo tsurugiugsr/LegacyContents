@@ -1,0 +1,54 @@
+﻿  frame.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(68,51): error C2664: 'BOOL CFrameWnd::Create(LPCTSTR,LPCTSTR,DWORD,const RECT &,CWnd *,LPCTSTR,DWORD,CCreateContext *)': 引数 2 を 'const char [14]' から 'LPCTSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(68,15): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\atlmfc\include\afxwin.h(4078,15): message : 'CFrameWnd::Create' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(79,88): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [6]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(79,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(81,93): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'const char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(81,46): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(83,87): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(83,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(85,87): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(85,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(87,87): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(87,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(89,88): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(89,46): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(91,93): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'const char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(91,46): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(93,94): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'const char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(93,47): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(95,83): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [6]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(95,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(134,39): error C2664: 'HMMIO mmioOpenW(LPWSTR,LPMMIOINFO,DWORD)': 引数 1 を 'LPSTR' から 'LPWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(134,19): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mmiscapi.h(449,1): message : 'mmioOpenW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(144,58): warning C4390: ';': 制御が空の文が見つかりました。意図した記述でしょうか?
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(229,84): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [6]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(229,46): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(276,88): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [6]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(276,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(277,87): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(277,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(278,88): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(278,46): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(279,87): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(279,45): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(280,88): error C2664: 'HANDLE LoadImageW(HINSTANCE,LPCWSTR,UINT,int,int,UINT)': 引数 2 を 'char [9]' から 'LPCWSTR' へ変換できません。
+Z:\ドキュメント\書類 - 岩井シノクのMacBook\作业\游戏设计概论\SeekMyFriend\SeekMyFriend\frame.cpp(280,46): message : 指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたは関数スタイルのキャストが必要です。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10824,1): message : 'LoadImageW' の宣言を確認してください

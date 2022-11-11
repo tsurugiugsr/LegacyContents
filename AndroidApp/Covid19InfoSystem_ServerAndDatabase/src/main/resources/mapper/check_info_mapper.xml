@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.Check_Info_Mapper">
+
+
+
+
+
+    <select id="checkNatInfo" resultMap="checkInfoResultMap">
+        select testeeName, testeePhone, MAX(testingTime) as testingTime from nat_info group by testeeName;
+    </select>
+
+    <resultMap id="checkInfoResultMap" type="pojo.Check_Info">
+        <result column="testeeName" property="testeeName"/>
+        <result column="testeePhone" property="testeePhone"/>
+        <result column="testingTime" property="testingTime"/>
+    </resultMap>
+
+
+
+</mapper>

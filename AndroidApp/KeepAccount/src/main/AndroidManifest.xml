@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doro.exp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Exp">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddAccountActivity" android:exported="true"/>
+        <activity android:name=".UpdateAccountActivity" android:exported="true"/>
+        <activity android:name=".ListRecordByTagActivity" android:exported="true"/>
+        <activity android:name=".ListRecordByMonthActivity" android:exported="true"/>
+        <activity android:name=".ListRecordSelectActivity" android:exported="true"/>
+        <activity android:name=".AddTagActivity" android:exported="true"/>
+
+        <provider
+            android:name=".dao.RecordContentProvider"
+            android:authorities="com.keepaccount.record"
+            android:enabled="true"
+            android:exported="true" />
+        <provider
+            android:name=".dao.TagContentProvider"
+            android:authorities="com.keepaccount.tag"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

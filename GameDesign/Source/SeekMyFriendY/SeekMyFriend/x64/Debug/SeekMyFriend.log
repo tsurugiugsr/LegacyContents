@@ -1,0 +1,4 @@
+﻿  frame.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+C:\Users\sosue\Desktop\SeekMyFriend - コピー\SeekMyFriend\frame.cpp(144,58): warning C4390: ';': 制御が空の文が見つかりました。意図した記述でしょうか?
+  SeekMyFriend.vcxproj -> C:\Users\sosue\Desktop\SeekMyFriend - コピー\x64\Debug\SeekMyFriend.exe

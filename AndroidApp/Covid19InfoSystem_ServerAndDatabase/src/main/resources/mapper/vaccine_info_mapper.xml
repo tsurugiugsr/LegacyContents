@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.Vaccine_Info_Mapper">
+    <insert id="addVaccineInfo">
+        insert into vaccine_info (inoculatorIdNum, date, vaccineId, vaccineSite)
+        values (#{inoculatorIdNum}, #{date}, #{vaccineId}, #{vaccineSite});
+    </insert>
+    
+    <select id="getId" resultType="int">
+        select id
+        from vaccine_info
+        <where>
+            inoculatorIdNum = #{inoculatorIdNum} and
+            date = #{date} and
+            vaccineId = #{vaccineId} and
+            vaccineSite = #{vaccineSite};
+        </where>
+    </select>
+    
+    <select id="getVaccineInfoByDate" resultMap="getVaccineInfoByDate_ResultMap">
+        select * from vaccine_info
+        <where>
+            date = #{date};
+        </where>
+    </select>
+    
+    <update id="updateVaccineInfo">
+        update vaccine_info
+        <set>
+            inoculatorIdNum = #{inoculatorIdNum},
+            date = #{date},
+            vaccineId = #{vaccineId},
+            vaccineSite = #{vaccineSite}
+        </set>
+        <where>
+            id = #{id};
+        </where>
+    </update>
+
+    <delete id="deleteVaccineInfo">
+        delete from vaccine_info
+        <where>
+            inoculatorIdNum = #{inoculatorIdNum} and
+            vaccineId = #{vaccineId} and
+            date = #{date} and
+            vaccineSite = #{vaccineSite};
+        </where>
+    </delete>
+    <resultMap id="getVaccineInfoByDate_ResultMap" type="pojo.Vaccine_Info">
+        <result column="inoculatorIdNum" property="inoculatorIdNum"/>
+        <result column="vaccineId" property="vaccineId"/>
+        <result column="date" property="date"/>
+        <result column="vaccineSite" property="vaccineSite"/>
+    </resultMap>
+
+    <select id="checkVN" resultMap="checkVnMap">
+        select inoculatorIdNum,count(*) as count from vaccine_info group by inoculatorIdNum;
+    </select>
+    <resultMap id="checkVnMap" type="pojo.Vaccine_Info">
+        <result column="inoculatorIdNum" property="inoculatorIdNum"/>
+        <result column="count" property="count"/>
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.NAT_Info_Mapper">
+    <insert id="addNATInfo">
+        insert into nat_info (testeeIdNum, testeeName, testeePhone, testingTime, testingResult, natSite)
+        values (#{testeeIdNum}, #{testeeName}, #{testeePhone}, #{testingTime}, #{testingResult}, #{natSite});
+    </insert>
+    <select id="getNATInfo" resultMap="natInfoResultMap">
+        select * from nat_info
+        <where>
+            testeeName = #{testeeName}
+        </where>
+    </select>
+    <resultMap id="natInfoResultMap" type="pojo.NAT_Info">
+        <result column="testingTime" property="testingTime"/>
+        <result column="natSite" property="natSite"/>
+        <result column="testingResult" property="testingResult"/>
+    </resultMap>
+</mapper>

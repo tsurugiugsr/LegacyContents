@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.NormalUser_Info_Mapper">
+    <insert id="addNormalUserInfo">
+        insert into normaluser_info (name, currentLocation, route, vaccine, badFeeling, healthCode, date)
+        values (#{name}, #{currentLocation}, #{route}, #{vaccine}, #{badFeeling}, #{healthCode}, #{date});
+    </insert>
+    <select id="getNormalUserInfo" resultMap="getNormalUserInfo_ResultMap">
+        select * from normaluser_info
+        <where>
+            date = #{date} and
+            name = #{name};
+        </where>
+    </select>
+    <resultMap id="getNormalUserInfo_ResultMap" type="pojo.NormalUser_Info">
+        <result column="currentLocation" property="currentLocation"/>
+        <result column="route" property="route"/>
+        <result column="vaccine" property="vaccine"/>
+        <result column="badFeeling" property="badFeeling"/>
+        <result column="healthCode" property="healthCode"/>
+    </resultMap>
+</mapper>

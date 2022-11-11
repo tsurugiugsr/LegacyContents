@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="记"
+            android:textColor="#FFFFFF"
+            android:textSize="64dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:textColor="#FFFFFF"
+            android:text="今日支出：64            今日收入：32           今日余额：-32"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="本月支出：123            本月收入：321           本月余额：198"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/records"/>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#00000000"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/add"/>
+    </LinearLayout>
+
+</LinearLayout>
