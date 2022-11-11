@@ -2,7 +2,7 @@
 //  main.cpp
 //  Image4
 //
-//  Created by 松岡東矢 on 2022/03/21.
+//  Created by 結城朝日 on 2022/03/21.
 //
 
 #include <iostream>

@@ -2,7 +2,7 @@
 //  PlayableCharacter.cpp
 //  Fight
 //
-//  Created by 松岡東矢 on 2022/05/24.
+//  Created by 結城朝日 on 2022/05/24.
 //
 
 #include "PlayableCharacter.hpp"
