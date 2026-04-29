@@ -1,3 +1,2 @@
 # LegacyContents
-Old school stuff
-For backup
+Small projects backup
